@@ -1,0 +1,31 @@
+{
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.welcome.enabled": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "window.zoomLevel": 0,
+  "typescript.check.npmIsInstalled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "javascript.validate.enable": false,
+  "workbench.colorTheme": "Atom One Dark",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "editor.minimap.enabled": false,
+  "workbench.panel.location": "bottom",
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "editor.trimAutoWhitespace": true,
+  "files.trimFinalNewlines": true
+}
