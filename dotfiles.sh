@@ -13,14 +13,15 @@ export NVM_DIR="$HOME/.nvm"
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
-SB_GREEN="\[\033[1;32m\]"
-SB_BLUE="\[\033[1;34m\]"
-SB_RED="\[\033[1;31m\]"
-SB_NOCOLOR="\[\033[0m\]"
-export PS1="$SB_GREEN\u@:\W$SB_GREEN\$(parse_git_branch)$SB_RED $SB_NOCOLOR$"
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$(parse_git_branch) $"
+
 parse_git_branch() {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
+
 alias reload="source ~/.bash_profile"
 alias ..='cd ../'
 alias ...='cd ../../'
