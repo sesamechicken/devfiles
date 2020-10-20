@@ -1,31 +1,48 @@
 {
-  "window.title": "${activeEditorLong}${separator}${rootName}",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.welcome.enabled": false,
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "window.zoomLevel": 0,
-  "typescript.check.npmIsInstalled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "javascript.validate.enable": false,
-  "workbench.colorTheme": "Atom One Dark",
-  "sync.quietSync": false,
-  "sync.askGistName": false,
-  "editor.minimap.enabled": false,
-  "workbench.panel.location": "bottom",
-  "sublimeTextKeymap.promptV3Features": true,
-  "editor.snippetSuggestions": "top",
-  "editor.formatOnPaste": true,
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressUpdateNotice": false,
-    "suppressWelcomeNotice": true
-  },
-  "editor.trimAutoWhitespace": true,
-  "files.trimFinalNewlines": true
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "editor.fontFamily": "'Fira Code', 'Hack', Menlo, Monaco, 'Courier New', monospace",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify",
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabSize": 2,
+    "terminal.integrated.rendererType": "dom",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.validate.enable": false,
+    "workbench.colorTheme": "Solarized Light",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorCustomizations": {
+        "editor.findMatchBackground": "#ffff00",
+        "editor.findMatchHighlightBackground": "#ffff00",
+        "editor.renderWhitespace": "selection",
+        "editor.selectionHighlight": true,
+        "editor.selectionBackground": "#ccc",
+        "editor.roundedSelection": true,
+        "statusBar.background": "#333",
+        "statusBar.foreground": "#bebebe",
+        "foreground": "#666",
+        "titleBar.activeBackground": "#333",
+        "badge.foreground": "#fff",
+        "badge.background": "#70966d",
+        "editorCursor.foreground": "#f00",
+        "activityBar.background": "#ccc",
+        "activityBar.foreground": "#444",
+        "activityBar.inactiveForeground": "#a5a5a5",
+        "activityBarBadge.background": "#539b4e",
+
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "git.enableSmartCommit": true,
 }
+
+
+//6c0
