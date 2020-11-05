@@ -1,7 +1,7 @@
 {
     "window.title": "${activeEditorLong}${separator}${rootName}",
     "window.zoomLevel": 0,
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": false,
     "editor.fontFamily": "'Fira Code', 'Hack', Menlo, Monaco, 'Courier New', monospace",
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify",
